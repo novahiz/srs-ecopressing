@@ -81,7 +81,6 @@
     background-color: rgba(177, 177, 177, 0.411);
     margin: 50px 0;
     padding: 50px 0;
-    border-radius: 25px;
     z-index: 1;
 }
 
@@ -105,7 +104,7 @@
 
 .main .engagements .contenu-engagements .list-item .meta:hover {
     background-color: rgb(124, 56, 0);
-    transform: translateX(-50px);
+    transform: translateX(-45px);
 }
 
 .main .engagements .contenu-engagements .list-item .meta img {
@@ -126,6 +125,7 @@
     width: 220px;
     height: 0px;
     left: 50%;
+    transform: translateX(-10%);
     background-color: rgb(60, 65, 77);
     padding: 0;
     opacity: 0;
