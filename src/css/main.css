@@ -1,0 +1,152 @@
+:root {
+    --nav-color: rgb(244, 244, 244);
+    --nav-color2: rgb(74, 74, 74);
+    --nav-bg: white;
+    --brand-color: rgb(46, 84, 119);
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+}
+
+.header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 10;
+}
+
+.header .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+}
+
+.header .header-content .brand a {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-content .brand a .title {
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    font-size: 1.6em;
+    color: rgb(62, 92, 118);
+    text-transform: uppercase;
+}
+
+.header .header-content .nav-menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50.8px;
+    right: 0;
+    width: 280px;
+    height: 100%;
+    background-color: var(--brand-color);
+    backdrop-filter: blur(2px);
+    transform: translateX(100%);
+    transition: ease-in-out .5s;
+    z-index: 100;
+}
+
+.header .header-content .nav-menu.active {
+    z-index: 100;
+    transform: translateX(0%);
+}
+
+.header .header-content .nav-menu .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.header .header-content .nav-menu .nav-list .list-item {
+    margin: 0 10px;
+}
+
+.header .header-content .nav-menu .nav-list .list-item a {
+    font-weight: 200;
+    text-transform: capitalize;
+    color: var(--nav-color);
+}
+
+.header .header-content .nav-menu .social-media {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    padding-bottom: 80px;
+}
+
+.header .header-content .nav-menu .social-media a {
+    display: block;
+    font-size: 25px;
+    margin: 0 20px;
+    color: var(--nav-color);
+    transition: ease-in-out .3s;
+}
+
+.header .header-content .nav-menu .social-media a:hover {
+    transform: scale(1.1);
+}
+
+.header .header-content .vip {
+    display: none;
+}
+
+/* Burger Styles */
+
+.header .header-content #burger .line {
+    width: 25px;
+    height: 2px;
+    background-color: var(--brand-color);
+    transition: ease-in-out .5s;
+}
+
+.header .header-content #burger #line1 {
+    transform: translateY(-4px);
+}
+
+.header .header-content #burger #line3 {
+    transform: translateY(4px);
+}
+
+.header .header-content #burger.active #line2 {
+    opacity: 0;
+}
+
+.header .header-content #burger.active #line1 {
+    transform: translateY(2px) rotateZ(45deg);
+}
+
+.header .header-content #burger.active #line3 {
+    transform: translateY(-2px) rotate(-45deg);
+}
+
+
+.main .home-hero .large-scren-video {
+    display: none;
+}
