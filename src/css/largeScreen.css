@@ -107,8 +107,13 @@
         border-radius: 50%;
     }
 
+    .main .engagements .contenu-engagements .list-item .meta:hover {
+        transform: translate(0px,-50px);
+    }
+
     .main .engagements .contenu-engagements .list-item  p {
         top: 0;
+        transform: translate(-50%,50%);
     }
 
     .grid-container .main .news-latter {

@@ -105,7 +105,7 @@
 
 .main .engagements .contenu-engagements .list-item .meta:hover {
     background-color: rgb(124, 56, 0);
-    transform: scale(1.1);
+    transform: translateX(-30px);
 }
 
 .main .engagements .contenu-engagements .list-item .meta img {
@@ -134,7 +134,6 @@
     box-shadow: 0 0 10px rgb(0, 0, 0);
     overflow: hidden;
     text-align: center;
-    transform: translateX(-50%);
     transition: ease-in-out .5s;
 }
 
