@@ -179,7 +179,7 @@
 
 .main .services .services-content .services-list .service {
     width: 300px;
-    margin: 20px;
+    margin: 10px;
     background-image: linear-gradient(100deg, rgb(55, 55, 105), rgba(161, 95, 71, 0.845));
     border-radius: 15px;
     box-shadow: 0 0 5px rgb(35, 35, 35);
