@@ -78,7 +78,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgb(51, 94, 138);
+    background-color: rgba(177, 177, 177, 0.411);
     margin: 50px 20px 0 20px;
     padding: 50px 0;
     border-radius: 25px;
@@ -86,21 +86,21 @@
 }
 
 .main .engagements li {
-    margin: 20px;
+    margin:35px 20px;
     transition: ease-in-out .5s;
 }
 
 .main .engagements .contenu-engagements .list-item .meta {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    border: solid 5px #f0f0f0;
-    background-color: rgb(255, 115, 0);
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 280px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgb(153, 0, 255);
     transition: ease-in-out .3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.795);
 }
 
 .main .engagements .contenu-engagements .list-item .meta:hover {
@@ -122,7 +122,7 @@
 .main .engagements .contenu-engagements .list-item  p {
     color: #cbcbcb;
     position: absolute;
-    top: 0;
+    top: -55%;
     width: 220px;
     height: 0px;
     left: 50%;
@@ -154,7 +154,7 @@
     height: 210px;
     padding: 10px;
     opacity: 1;
-    overflow: scroll;
+    overflow: visible;
 }
 
 

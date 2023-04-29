@@ -99,6 +99,18 @@
         width:300px;
     }
 
+    .main .engagements .contenu-engagements .list-item .meta {
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        border: solid 5px #f0f0f0;
+        border-radius: 50%;
+    }
+
+    .main .engagements .contenu-engagements .list-item  p {
+        top: 0;
+    }
+
     .grid-container .main .news-latter {
         display: block;
         position: relative;
