@@ -137,5 +137,50 @@
         display: block;
     }
 
-    
+
+    /* Pricing page stylling */
+
+    .main .offres .offres-content {
+        margin-top: 50px;
+    }
+
+    .main .offres .offres-content img {
+        width: 50%;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,.3);
+        transform: translateX(35%);
+    }
+
+    .main .offres .offres-content .description {
+        top: 50%;
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+        transform: translate(10%, -50%);
+    }
+
+    .main .livraison {
+        padding-top: 50px;
+    }
+
+    .main .livraison .content {
+        margin-top: 50px;
+    }
+
+    .main .livraison .content img {
+        width: 50%;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,.3);
+        transform: translateX(60%);
+    }
+
+    .main .livraison .content .description {
+        width: 400px;
+        height: 280px;
+        left: 30%;
+        top: 50%;
+        transform: translate(-50%,5%);
+        z-index: 10;
+    }
+        
 }

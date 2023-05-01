@@ -46,28 +46,6 @@
     width: 200px;
 }
 
-
-.main section .titles {
-    text-align: center;
-    padding-top: 100px;
-}
-
-
-.main section .titles h3 {
-    color: rgb(255, 115, 0);
-    font-size: 1em;
-    font-weight:800;
-    text-transform: uppercase;
-}
-
-.main section .titles h2 {
-    color: rgb(73, 73, 116);
-    font-size: 2em;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 20px;
-}
-
 .main .engagements {
     background-color: white;
 }
@@ -79,7 +57,7 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: rgba(177, 177, 177, 0.411);
-    margin: 50px 0;
+    margin-top: 50px;
     padding: 50px 0;
     z-index: 1;
 }
@@ -341,47 +319,4 @@
 
 .grid-container .main .news-letter .content .right img:hover {
     transform: scale(1.1);
-}
-
-.main .premium  {
-    background-color: white;
-    padding: 50px 0;
-}
-
-.main .premium .premium-content {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    color: white;
-    background-color: rgb(255, 115, 0);
-    width: 100%;
-}
-
-.main .premium .premium-content .left h2 {
-    font-weight: 900;
-    text-transform: uppercase;
-    padding: 10px;
-}
-
-.main .premium .premium-content .left p {
-    padding: 0 10px 50px 10px;
-}
-
-.main .premium .premium-content .right .btn {
-    display: block;
-    width: 150px;
-    padding: 10px;
-    margin: 50px 10px 50px 20px;
-    color: rgb(255, 115, 0);
-    text-align: center;
-    border-radius: 10px;
-    background-color: white;
-    transition: ease-in-out .3s;
-}
-
-.main .premium .premium-content .right .btn:hover {
-    color: black;
-    transform: scale(1.1);
-
 }

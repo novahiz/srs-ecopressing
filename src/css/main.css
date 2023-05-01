@@ -30,7 +30,7 @@ body {
     right: 0;
     left: 0;
     background-color: rgba(255, 255, 255, 0.7);
-    z-index: 10;
+    z-index: 20;
 }
 
 .header .header-content {
@@ -146,7 +146,74 @@ body {
     transform: translateY(-2px) rotate(-45deg);
 }
 
+.main {
+    overflow: hidden;
+}
 
 .main .home-hero .large-scren-video {
     display: none;
+}
+
+.main section .titles {
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.main section .titles h3 {
+    color: rgb(255, 115, 0);
+    font-size: 1em;
+    font-weight:800;
+    text-transform: uppercase;
+}
+
+.main section .titles h2 {
+    color: rgb(73, 73, 116);
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.main .premium  {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.main .premium .premium-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: rgb(255, 115, 0);
+    width: 100%;
+}
+
+.main .premium .premium-content .left h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.main .premium .premium-content .left p {
+    padding: 0 10px 50px 10px;
+}
+
+.main .premium .premium-content .right .btn {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin: 50px 10px 50px 20px;
+    color: rgb(255, 115, 0);
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    transition: ease-in-out .3s;
+}
+
+.main .premium .premium-content .right .btn:hover {
+    color: black;
+    transform: scale(1.1);
+
 }
