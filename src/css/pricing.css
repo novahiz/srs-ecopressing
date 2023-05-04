@@ -62,7 +62,7 @@
     justify-content: space-evenly;
     color: rgba(0, 35, 72, 0.733);
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
     height: 280px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 35, 72, 0.4);
@@ -83,7 +83,7 @@
 }
 
 .main .pricing .pricing-card .card img {
-    width: 200px;
+    width: 180px;
     height: 150px;
     border-radius: 10px;
     margin: 10px;
