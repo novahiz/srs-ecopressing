@@ -3,8 +3,8 @@
 .grid-container .main .hero {
     position: relative;
     width: 100%;
-    min-height: 600px;
-    background: url("../../assets/images/img1.jpg");
+    min-height: 750px;
+    background: url("../../assets/images/laundry-kg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
@@ -84,6 +84,7 @@
 
 .main .pricing .pricing-card .card img {
     width: 200px;
+    height: 150px;
     border-radius: 10px;
     margin: 10px;
     box-shadow: 0 0 5px rgba(137, 150, 173, 0.3);
