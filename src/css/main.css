@@ -115,7 +115,7 @@ body {
     display: none;
 }
 
-/* Burger Styles */
+/*===================================== Burger Styles =================================*/
 
 .header .header-content #burger .line {
     width: 25px;
@@ -143,6 +143,8 @@ body {
 .header .header-content #burger.active #line3 {
     transform: translateY(-2px) rotate(-45deg);
 }
+
+/*========================================main=====================================*/
 
 .main {
     overflow: hidden;
@@ -216,6 +218,8 @@ body {
     transform: scale(1.1);
 
 }
+
+/*=========================================Reviews======================================= */
 
 .main section.witness {
     background-color: rgb(255, 255, 255);

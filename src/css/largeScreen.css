@@ -39,6 +39,7 @@
 
     .header .header-content .nav-menu .social-media {
         margin-left: 100px;
+        margin-right: 100px;
         padding-bottom: 0px;
     }
 
@@ -59,7 +60,7 @@
     }
 
     .header .header-content .vip {
-        display: block;
+        display: none;
         width: 100px;
         padding: 7px;
         margin-right: 25px;
