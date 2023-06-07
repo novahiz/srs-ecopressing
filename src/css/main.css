@@ -48,11 +48,9 @@ body {
 
 .header .header-content .brand a .title {
     padding: 10px;
-    font-family: 'Dancing Script', cursive;
     font-weight: 500;
     font-size: 1.6em;
     color: rgb(62, 92, 118);
-    text-transform: uppercase;
 }
 
 .header .header-content .nav-menu {
@@ -305,7 +303,6 @@ body {
 }
 
 .footer .footer-content .list .list-item ul li {
-    text-transform: capitalize;
     padding: 10px 0;
     transition: all ease-in-out .3s;
 }
