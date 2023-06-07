@@ -276,6 +276,25 @@ body {
     transition: all ease-in-out .5s;
 }
 
+.google-map {
+    background-color: var(--nav-bg);
+}
+
+.google-map-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.google-map .map {
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.288);
+    overflow: hidden;
+}
+
 .footer {
     color: #f1f1f1c8;
     background-image: linear-gradient(45deg, rgb(157, 82, 157), rgb(0, 128, 102));
@@ -323,12 +342,17 @@ body {
 
 .footer .copyright::after {
     position: absolute;
-    bottom: 25%;
+    bottom: 15%;
     right: 50%;
     content: "";
     width: 100px;
     height: 3px;
-    background-color: rgba(255, 255, 255, 0.695);
+    background-color: rgba(214, 167, 212, 0.695);
     transform: translateX(50%);
 
+}
+
+.footer .nova-tag {
+    text-align: center;
+    padding-bottom: 30px;
 }

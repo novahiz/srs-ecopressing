@@ -136,7 +136,7 @@
 
 
 
-
+ /*===================================================SERVICES========================================*/
 
 
 .main .services {
@@ -155,7 +155,8 @@
 .main .services .services-content .services-list .service {
     width: 300px;
     border-radius: 5px;
-    margin: 20px;
+    margin: 15px;
+    margin-top: 30px;
 }
 
 .main .services .services-content .services-list .service .service-content {
@@ -167,9 +168,11 @@
 }
 
 .main .services .services-content .services-list .service .service-content img {
-    width: 100%;
+    width: 300px;
+    height: 220px;
     border-radius: 5px;
     margin-bottom: 20px;
+    object-fit: cover;
 }
 
 .main .services .services-content .services-list .service .service-content .service-name {
