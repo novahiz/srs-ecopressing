@@ -292,7 +292,7 @@ body {
 }
 
 .google-map .map {
-    width: 90%;
+    width: 95%;
     height: 300px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.288);
