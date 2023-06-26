@@ -35,6 +35,7 @@
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-size: 2em;
+    padding-inline: 25px;
 }
 
 .grid-container .main .hero .hero-content .description {
@@ -62,8 +63,8 @@
     justify-content: space-evenly;
     color: rgba(0, 35, 72, 0.733);
     padding: 10px;
-    margin: 10px;
-    height: 280px;
+    margin-top: 50px;
+    height: 350px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 35, 72, 0.4);
     transition: ease-in-out .5s;
@@ -83,8 +84,8 @@
 }
 
 .main .pricing .pricing-card .card img {
-    width: 180px;
-    height: 150px;
+    width: 280px;
+    height: 200px;
     border-radius: 10px;
     margin: 10px;
     box-shadow: 0 0 5px rgba(137, 150, 173, 0.3);
