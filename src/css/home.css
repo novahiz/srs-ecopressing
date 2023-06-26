@@ -156,16 +156,17 @@
 
 .main .services .services-content .services-list .service {
     width: 300px;
-    border-radius: 5px;
-    margin: 15px;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
     margin-top: 30px;
-    background-color: #cbcbcb;
+    background-color: #e7d3d383;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.568);
     transition: all .5s ease;
 }
 
 .main .services .services-content .services-list .service:hover {
-    background-color: rgb(127, 187, 255);
+    background-color: rgb(231, 176, 231);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.568);
 }
 
@@ -173,17 +174,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 100%;
 }
 
 .main .services .services-content .services-list .service .service-content img {
-    width: 300px;
+    width: 280px;
     height: 220px;
-    border-radius: 5px;
-    margin-bottom: 20px;
+    border-radius: 15px;
+    margin: 5px;
     object-fit: cover;
+    box-shadow: 0 0 5px black;
 }
+
 .main .services .services-content .services-list .service .service-content .service-name {
     color: rgb(67, 67, 165);
     font-size: 20px;
