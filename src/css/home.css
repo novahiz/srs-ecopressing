@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 80px;
     height: 100%;
     background-color: rgba(10, 80, 124, 0.4);
@@ -47,6 +47,8 @@
 .main .home-hero .home-hero-content .right img {
     width: 200px;
 }
+
+/*===========================================Engagement===============================================*/
 
 .main .engagements {
     background-color: white;
