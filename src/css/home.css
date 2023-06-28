@@ -160,13 +160,12 @@
     margin: 10px;
     padding: 10px;
     margin-top: 30px;
-    background-color: #e7d3d383;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.568);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
     transition: all .5s ease;
 }
 
 .main .services .services-content .services-list .service:hover {
-    background-color: rgb(231, 176, 231);
+    background-color: #e7d3d383;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.568);
 }
 

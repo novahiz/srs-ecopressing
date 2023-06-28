@@ -1,6 +1,7 @@
 
 
 .grid-container .main .hero {
+    padding-top: 70px;
     position: relative;
     width: 100%;
     background-image: linear-gradient(145deg, rgb(27, 41, 78), rgb(202, 57, 0));
@@ -45,7 +46,6 @@
 .main .about {
     color: rgb(39, 38, 38);
     background-color: white;
-    margin: 10px;
     padding: 10px;
 }
 
@@ -72,7 +72,7 @@
 }
 
 .srs__container-item {
-    margin: 1rem;
+    margin: 10px;
     transition: all .3s ease;
 }
 
@@ -83,7 +83,6 @@
     align-items: center;
     padding: 2rem;
     transition: all .3s ease;
-    background-color: rgb(255, 243, 243);
     box-shadow: 0 2px 4px rgba(247, 156, 150, 0.322);
     border-radius: 5px;
 }
@@ -94,9 +93,9 @@
 
 
 .srs__container-item__data .item__image {
-    width: 360px;
+    width: 350px;
     border-radius: 10px;
-    transition: all 1s ease;
+    transition: all 3s ease;
     margin: auto;
     margin-top: 2rem;
 }
@@ -106,7 +105,7 @@
 }
 
 .srs__container-item__data p {
-    padding: 2.5rem;
+    padding: 1.5rem;
     max-width: 500px;
     margin:0 auto ;
     line-height: 1.5rem;
