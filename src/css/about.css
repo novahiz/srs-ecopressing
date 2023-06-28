@@ -3,9 +3,7 @@
 .grid-container .main .hero {
     position: relative;
     width: 100%;
-    background-image: linear-gradient(145deg, rgb(4, 40, 139), purple);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(145deg, rgb(27, 41, 78), rgb(202, 57, 0));
     z-index: -1;
 }
 
@@ -25,7 +23,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 400px;
     z-index: 2;
 }
 
@@ -54,7 +52,9 @@
 .about .about-content {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-evenly;
+    transition: all .3s ease;
 }
 
 .about .about-content .left {
@@ -67,26 +67,38 @@
 }
 
 .srs__container {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 3rem;
-    max-width: 380px;
-    margin: 20px;
-    text-align: center;
+}
+
+.srs__container-item {
+    margin: 1rem;
+    transition: all .3s ease;
 }
 
 .srs__container-item__data {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 10px;
+    padding: 2rem;
+    transition: all .3s ease;
+    background-color: rgb(255, 243, 243);
+    box-shadow: 0 2px 4px rgba(247, 156, 150, 0.322);
+    border-radius: 5px;
 }
+
+.srs__container-item__data:hover {
+    box-shadow: 0 5px 10px rgb(247, 156, 150);
+}
+
 
 .srs__container-item__data .item__image {
     width: 360px;
     border-radius: 10px;
-    transition: all .4s ease;
+    transition: all 1s ease;
+    margin: auto;
+    margin-top: 2rem;
 }
 
 .srs__container-item__data:hover .item__image{
@@ -94,5 +106,8 @@
 }
 
 .srs__container-item__data p {
-    padding-top: 2rem;
+    padding: 2.5rem;
+    max-width: 500px;
+    margin:0 auto ;
+    line-height: 1.5rem;
 }
