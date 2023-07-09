@@ -364,3 +364,43 @@ body {
     text-align: center;
     padding-bottom: 30px;
 }
+
+/*=======================================whatsapp-float=====================================*/
+
+.whatsapp__float-container{
+    position: fixed;
+    bottom: 1rem;
+    right: .5rem;
+    background-color: rgb(27, 61, 27);
+    box-shadow: 0 3px 8px black;
+    border-radius: 1rem;
+    z-index: 1000;
+    transition: all .3s ease;
+    translate: 80%;
+    overflow: hidden;
+}
+
+.whatsapp__float:hover .whatsapp__float-container {
+    translate: 0;
+}
+
+.whatsapp__float-container:hover {
+    background-color: green;
+}
+
+.whatsapp__float-link {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-inline: auto;
+    color: white;
+}
+
+.whatsapp__float-icon {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.whatsapp__float-description {
+    padding-right:1rem;
+}
